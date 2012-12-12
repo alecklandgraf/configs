@@ -1,6 +1,9 @@
 export CLICOLOR='true'
 export LSCOLORS="gxfxcxdxbxegedabagacad"
 export ARCHFLAGS='-arch i386 -arch x86_64'
+export AWS_RDS_HOME='/Users/alandgraf/code/AWS/RDS'
+export JAVA_HOME='/Library/Java/Home'
+export AWS_CREDENTIAL_FILE='/Users/alandgraf/code/AWS/RDS/credential-file'
 
 alias ll='ls -lh'
 alias ks='ls'
@@ -26,6 +29,7 @@ PS1="$PS1\[\033[0;32m\]\$(parse_git_branch)\[\033[00m\] "
 export PATH=$PATH:~/bin
 set -o vi
 
+export PATH="/Users/alandgraf/code/AWS/RDS/bin:$PATH"
 
 
 ### Added by the Heroku Toolbelt
