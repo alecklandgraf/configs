@@ -26,3 +26,7 @@ PS1="$PS1\[\033[0;32m\]\$(parse_git_branch)\[\033[00m\] "
 
 
 set -o vi
+
+#### Start BE config ####
+. ~/.flintrc
+#### End BE config ####
