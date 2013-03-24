@@ -1,7 +1,7 @@
 installs:
 
 dropbox
-keyramap4macbook
+keyremap4macbook
 divvy
 gitbox
 sublime text 2
