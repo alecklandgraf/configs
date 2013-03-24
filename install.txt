@@ -1,0 +1,21 @@
+installs:
+
+dropbox
+keyramap4macbook
+divvy
+gitbox
+sublime text 2
+iterm2
+skitch
+xcode
+xcode command line tools
+virtual box
+homebrew
+vagrant
+flux
+google chrome
+go2shell
+keynote
+sparrow
+clyppan
+crashplan
