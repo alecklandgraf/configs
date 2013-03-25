@@ -19,3 +19,4 @@ keynote
 sparrow
 clyppan
 crashplan
+heroku toolbelt
