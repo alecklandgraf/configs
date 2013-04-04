@@ -12,6 +12,8 @@ alias df='df -h'
 alias la='ls -la'
 alias ipconfig='ifconfig'
 alias sp='python manage.py shell_plus'
+alias vup='cd ../vagrant-box;vagrant up'
+alias runserver='python manage.py runserver'
 
 function parse_git_branch {
 git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/*[\t]\(.*\)/\ git\ \1/'
