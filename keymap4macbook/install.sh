@@ -3,7 +3,7 @@ keymap_file="/Users/$USER/Library/Application Support/KeyRemap4MacBook/private.x
 backup_file="/Users/$USER/Library/Application Support/KeyRemap4MacBook/private.xml_`eval date +%Y%m%d`"
 replacement_file="./private.xml"
 
-if [ -f $replacement_file]
+if [ -f $replacement_file ]
 	then
 	echo "backing up original config file to $backup_file"
 	cp $keymap_file $backup_file
