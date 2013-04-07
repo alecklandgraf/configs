@@ -13,7 +13,7 @@ fi
 if [ -f $replacement_file ]
 	then
 	echo "backing up original config file to $backup_file"
-	cp $keymap_file $backup_file
+	mv $keymap_file $backup_file
 	echo "installing new config file"
 	ln $replacement_file $keymap_file
 else
