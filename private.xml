@@ -16,5 +16,11 @@
             <identifier>remap.samples_keytokey_control_r_option_l</identifier>
             <autogen>--KeyToKey-- KeyCode::CONTROL_R, KeyCode::OPTION_L</autogen>
         </item>
+        <item>
+            <name>Control_R_2 to Option_L (KeyToKey)</name>
+            <appendix>Control_R_2 to Option_L</appendix>
+            <identifier>remap.samples_keytokey_control_r_2_option_l</identifier>
+            <autogen>--KeyToKey-- KeyCode::CONTROL_L, KeyCode::OPTION_L</autogen>
+        </item>
     </item>
 </root>
