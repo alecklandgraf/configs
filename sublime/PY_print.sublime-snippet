@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[print "\n\n\n${1:name}", ${0:var name}, "\n\n\n"
+]]></content>
+    <tabTrigger>pppp</tabTrigger>
+    <scope>source.python.django</scope>
+    <description>print "\n\n\n...", ..., "\n\n\n"</description> 
+</snippet>
