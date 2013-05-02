@@ -14,6 +14,7 @@ alias ipconfig='ifconfig'
 alias sp='python manage.py shell_plus'
 alias vup='cd ../vagrant-box;vagrant up'
 alias runserver='python manage.py runserver'
+alias port_forward_8080="sudo ipfw add 100 fwd 127.0.0.1,8080 tcp from any to any 80 in"
 
 function parse_git_branch {
 git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/*[\t]\(.*\)/\ git\ \1/'
