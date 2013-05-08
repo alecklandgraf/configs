@@ -12,7 +12,7 @@ alias df='df -h'
 alias la='ls -la'
 alias ipconfig='ifconfig'
 alias sp='python manage.py shell_plus'
-alias vup='cd ../vagrant-box;vagrant up'
+alias vup='cd ../vagrant-box;vagrant up;cd -'
 alias runserver='python manage.py runserver'
 alias port_forward_8080="sudo ipfw add 100 fwd 127.0.0.1,8080 tcp from any to any 80 in"
 
