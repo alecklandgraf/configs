@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[print "\n\n\n${1:name}", ${0:var name}, "\n\n\n"
+    <content><![CDATA[print "\n\n\nline $TM_LINE_NUMBER of $TM_FILENAME", ${0:var name}, "\n\n\n"
 ]]></content>
     <tabTrigger>pppp</tabTrigger>
     <scope>source.python.django</scope>
