@@ -14,8 +14,9 @@ export EDITOR=vim
 alias gs='git status'
 alias gd='git diff'
 alias gc='git commit -am'
-alias sp='./manage shell_plus'
+alias sp='./manage.py shell_plus'
 alias runserver='./manage.py runserver'
+alias serve='python -m SimpleHTTPServer'
 
 # virtualfish like vitualenv, but for fish
 eval (python -m virtualfish auto_activation compat_aliases)
