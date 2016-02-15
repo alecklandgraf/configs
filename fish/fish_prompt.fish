@@ -1,3 +1,4 @@
+# note to self, copy to ~/.config/fish/functions/
 function fish_prompt
 	# Cache exit status
     set -l last_status $status
